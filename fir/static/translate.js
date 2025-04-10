@@ -1,7 +1,7 @@
 // Initialize Google Translate API
 function googleTranslateElementInit() {
     new google.translate.TranslateElement(
-        { pageLanguage: 'en', includedLanguages: 'hi,ta,bn,pa', autoDisplay: false },
+        { pageLanguage: 'en', includedLanguages: 'hi,ta,bn,pa,kn,ml,te,mr,gu,ur'', autoDisplay: false },
         'google_translate_element'
     );
 }
