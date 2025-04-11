@@ -151,12 +151,11 @@
             ⚖ ADHIKAR
           </h2>
           <nav class="space-x-6">
-            <a href="#">Home</a>
+            <a href="{% url 'home' %}">Home</a>
             <a href="#features">Features</a>
             <a href="#">About us</a>
-            <a href="#">Support Community</a>
-            <a href="find-help.html">Find Help</a>
-            <a href="#contact">Contact</a>
+            <a href="{% url 'support_forum' %}">Support Community</a>
+            <a href="{% url 'find_help' %}">Find Help</a>
           </nav>
           <div class="text-gray-600 cursor-pointer">Translate</div>
         </div>
